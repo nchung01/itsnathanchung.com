@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="logo"><i class='bx bxs-home'></i></a>
+
+    <ul class="links">
+
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      
+    </ul>
+
+    <i class='bx bx-menu-alt-right' id="menu"></i>
+
+    <a href="#contact" class="btn">Contact Me</a>
+  </nav>
+  
+  <section id="home">
+    <img src="pfp.jpg" alt="">
+
+    <div class="info-box">
+      <h1><span>Hi, I'm Nathan Chung</span></h1>
+      <h2><span>Computer Engineering student </span></h2>
+      <h3>passionate about tech and innovation</h3>
+    </div>
+
+    <div class="btn-box">
+      <a href="#contact" class="btn white-btn">Reach Out</a>
+    </div>
+
+  </section>
+
+  <section id="about">
+
+    <img src="image.jpg" alt="Profile Image">
+    <div class="about-box">
+      <h1><span>About Me</span></h1>
+
+      <p>I’m a Computer Engineering student from Guelph studying at the University of Guelph. What really intrigues me about technology is how far it has come—from a time when we had no technology at all to creating powerful devices capable of performing countless functions. It's incredible that a single device offers features such as communicating with people from across the world and providing forms of entertainment, like video games and YouTube. I’m interested in understanding what makes technology capable of performing such tasks. As a visual learner who enjoys building things, I find that coding and using CAD tools, such as SolidWorks, allow me to bring my ideas to life. What truly fascinates me is AI and its ability to take over tasks solely done by humans and shape the future. Outside of engineering, I enjoy spending time playing video games and with my family as well as traveling with them (Japan is on my bucket list). One of my personal goals is bettering myself, so I enjoy working out and trying to learn new life skills. When I think about technology, it's more than just coding and circuits. To me, it's about making our lives better and easier by creating tools.</p>
+    </div>
+
+
+  </section>
+
+
+
+
+  <section id="skills">
+  <h1 class="header"><span>Skills</span></h1>
+  <div class="skills">
+    <ul>
+      <li>
+        <span><i class='bx bx-chevron-right'></i> Programming Languages</span>
+        <p>- Java, Python, C, JavaScript, HTML, CSS, MATLAB, Assembly</p>
+      </li>
+      <li>
+        <span><i class='bx bx-chevron-right'></i> Tools & Frameworks</span>
+        <p>- VS Code, NetBeans, Git, Microsoft Office, MATLAB Simulink, Vivado</p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <span><i class='bx bx-chevron-right'></i> Hardware & Platforms</span>
+        <p>- Arduino, FPGA, Windows</p>
+      </li>
+      <li>
+        <span><i class='bx bx-chevron-right'></i> CAD/Design Tools</span>
+        <p>- SolidWorks (Certified), AutoCAD, Cadence Virtuoso</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+
+
+ <section id="projects">
+  <h1 class="header"><span>Projects</span></h1>
+
+  <div class="services-container">
+    <a href="https://github.com/nchung01?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <div class="box">
+        <h1><span>CrypticMagic</span></h1>
+        <p>A C program that reads a .txt file and outputs the encrypted or decrypted contents.</p>
+        <img src="encryption-keys-lock-digital-concept.jpg" alt="">
+      </div>
+    </a>
+
+    <a href="https://github.com/nchung01?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <div class="box">
+        <h1><span>Shape Animation</span></h1>
+        <p>A Java based graphical interface designed for shape animation and manipulation.</p>
+        <img src="Animation-software.jpg" alt="">
+      </div>
+    </a>
+
+    <a href="https://github.com/nchung01?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <div class="box">
+        <h1><span>RISC-V Instruction Set Simulator</span></h1>
+        <p>A RISC-V instruction simulator written in Python.</p>
+        <img src="risc-v-render.jpg" alt="">
+      </div>
+    </a>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h1 class="header"><span>Contact Me</span></h1>
+
+    <form action="https://formsubmit.co/me.nathanchung@gmail.com" method="POST">
+      <div class="input-box">
+        <span>Full Name</span>
+        <input type="text" name="name" required>
+      </div>
+
+      <div class="input-box">
+        <span>Your Email</span>
+        <input type="email" name="email" required>
+      </div>
+
+      <div class="input-box">
+        <span>Your Message</span>
+        <textarea name="message" placeholder="Type Your Message here" required rows="6" cols="30"></textarea>
+
+      </div>
+
+      <input type="hidden" name="_subject" value="New message from contact form">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="btn" onclick="this.closest('form').submit();">Submit</div>
+
+    </form>
+  </section>
+
+  <footer>
+    <div class="col-left">
+      <div class="col-box">
+        <span><i class='bx bxs-phone' ></i></span>
+        <span>+1 519 731 6238</span>
+      </div>
+
+      <div class="col-box">
+        <span><i class='bx bxs-envelope' ></i></span>
+        <span>me.nathanchung@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="col-right">
+      
+      
+      <div class="social-icons">
+        <span><i class='bx bxl-linkedin-square' ></i></span>
+        <span><i class='bx bxl-github' ></i></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+<div class="social-icons-btns">
+  <a href="https://www.linkedin.com/in/nathan-chung-257663309/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <i class="bx bxl-linkedin-square"></i>
+  </a>
+  <a href="https://github.com/nchung01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <i class="bx bxl-github"></i>
+  </a>
+</div>>
+-->
