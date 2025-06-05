@@ -1,6 +1,4 @@
 # Personal-Website
-Personal portfolio website showcasing my skills, projects, and experience. Includes sections for About Me, Skills, Projects, and Contact information.
-
 This is my personal website designed to showcase my background, technical skills, and projects. Built using HTML, CSS, and JavaScript, the site includes:
 
 - **Home Page** – A brief introduction and welcome.
