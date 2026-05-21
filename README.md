@@ -9,3 +9,4 @@ This is my personal website designed to showcase my background, technical skills
 
 Feel free to explore the site and learn more about what I do!
 
+https://nchung01.github.io/itsnathanchung.com/
